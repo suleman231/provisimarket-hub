@@ -1,8 +1,8 @@
 
 import React, { useState, useMemo, useEffect, useRef } from 'react';
-import { Store, Category, Product, User } from './types';
-import { MOCK_STORES, CATEGORIES, CURRENT_USER } from './constants';
-import { searchMarketplace } from './services/geminiService';
+import { Store, Category, Product, User } from './types.ts';
+import { MOCK_STORES, CATEGORIES, CURRENT_USER } from './constants.ts';
+import { searchMarketplace } from './services/geminiService.ts';
 
 // Tell TypeScript about the Leaflet global variable provided via script tag
 declare const L: any;
