@@ -1,0 +1,25 @@
+{
+  "name": "ProvisiMarket - Local Store Hub",
+  "short_name": "ProvisiMarket",
+  "description": "Professional marketplace for local provision stores. List products, manage inventory, and assist shoppers with AI.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#4f46e5",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://api.dicebear.com/7.x/shapes/svg?seed=market-icon",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "https://api.dicebear.com/7.x/shapes/svg?seed=market-icon",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
